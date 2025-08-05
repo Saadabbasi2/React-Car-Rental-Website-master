@@ -1,0 +1,27 @@
+{
+  "name": "car-rental-scraper",
+  "version": "1.0.0",
+  "description": "Car rental data scraper for React car rental website",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "scrape:headless": "node scraper.js --headless",
+    "generate-data": "node generate-react-data.js",
+    "start": "node scraper.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "puppeteer": "^24.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "scraper",
+    "car-rental",
+    "puppeteer",
+    "data-scraping"
+  ],
+  "author": "Car Rental Scraper",
+  "license": "MIT"
+}
